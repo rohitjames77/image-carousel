@@ -1,0 +1,3 @@
+import "./style.css";
+import { rightImg,leftImg } from "./colourFlow";
+// Note: Color flow is blue green red ....
