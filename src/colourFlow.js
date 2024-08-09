@@ -54,6 +54,7 @@ const leftImg = document
     indexThree:0,
   }
   function divOneColorChange(event) {
+    //Div two  is Blue by Default.
     if (event.target.className==='right'){
       const colors = ['blue', 'green', 'red'];
     firstDiv.style.backgroundColor = colors[counter.indexOne];
@@ -80,7 +81,7 @@ function divTwoColorChange(event) {
 }
 
 function divThreeColorChange(event) {
-  // div Three  is blue by default.
+  // div Three  is Red by default.
   if (event.target.className==='right'){
     const colors = ['green', 'red', 'blue'];
   thirdDiv.style.backgroundColor = colors[counter.indexThree];
